@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background: #f7f7ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.contrainer{
+  margin: 30px auto;
+  width: 350px;
+}
+
+.horizontal-menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.horizontal-menu li{
+  display: inline-block;
+}
+
+.horizontal-menu a{
+  color: rgb(84, 34, 88);
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  cursor: pointer;
+  border: 1px solid rgb(84, 34, 88);
+  border-radius: 5px; 
+  margin: 5px;
+  transition: background-color 0.3s; 
+
+}
+.horizontal-menu a:hover{
+  background-color: rgb(237, 218, 255); 
+}
